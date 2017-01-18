@@ -1,0 +1,14 @@
+
+
+You should be able to access it from a url created as follows:
+
+http://{bucket-name}.s3.amazonaws.com/<path-to-file>
+
+Now, say your s3 file path is:
+
+s3://test-bucket/test-folder/test-file.txt
+
+You should be able to wget this file with following url:
+
+http://test-bucket.s3.amazonaws.com/test-folder/test-file.txt
+
